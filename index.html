@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" >
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/sumit-photo.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=uDD_RHa_MaY"  target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/himanshu.avif">
+              <div class="video-time">3:24:34</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@morphixx_ff"  target="_blank" class="thumbnail-link">
+                <img class="profile-picture" src="channel-pictures/morfhix-channel-pic.jpg" alt="MORPHIXX">
+              </a>
+              </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=uDD_RHa_MaY"  target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  MORPHIXX IS LIVE 😎 CS RANK PUSH TO 999 STAR 🔥😲 Garena Free Fire
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@morphixx_ff"  target="_blank" class="thumbnail-link">
+                <p class="video-author">
+                  MORPHIXX 
+                 <span class="blue-tick">✔</span>
+                </p>
+                <p class="video-stats">
+                  10.4M views &#183; Streamed 1 day ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=QoqokgcX96M" target="_blank" class="thumbnail-link">
+              <img  class="thumbnail" src="thumbnails/carryminati.avif">
+            <div class="video-time">9:29</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CarryMinati" target="_blank" class="thumbnail-link">
+                <img class="profile-picture" src="channel-pictures/carryminati-profile.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=QoqokgcX96M" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  CARRY KI SHAADI 😭 | Q&A 2024 CARRYMINATI
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@CarryMinati" target="_blank" class="thumbnail-link">
+                <p class="video-author">
+                  CarryMinati
+  
+                </p>
+                <p class="video-stats">
+                  24M views &#183; 1 months ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=RqLFXpuZFFk" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/r2h.avif" alt="r2h">
+              <div class="video-time">40:34</div>
+            </a>   
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Round2hell/videos" target="_blank" class="thumbnail-link">
+                <img class="profile-picture" src="channel-pictures/r2h-channel-pic.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=RqLFXpuZFFk" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  ZOMBIE | The Living Dead | Round2Hell | R2H
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@Round2hell/videos" target="_blank" class="thumbnail-link">
+                <p class="video-author">
+                  Round2hell
+                </p>
+                <p class="video-stats">
+                  70M views &#183; 2 years ago
+                </p>
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=NnT94TmRbuY" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/trigger.avif" alt="Trigger Thumbnail">
+              <div class="video-time">9:42:43</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@liveinsaan" target="_blank" class="thumbnail-link">
+                <img class="profile-picture" src="channel-pictures/triger-chanel-pic.jpg">
+              </a>
+              </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=NnT94TmRbuY" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  The FINAL BOSS - Black Myth Wukong THE END🛑
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@liveinsaan" target="_blank" class="thumbnail-link">
+                <p class="video-author">
+                  Live Insaan
+                </p>
+                <p class="video-stats">
+                  556K views &#183; Streamed 2 months ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n_E3bLYuQBo" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/samai.avif" alt="Samai Thumbnail">
+              <div class="video-time">1:14:53</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/samiai-chanel-pic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=n_E3bLYuQBo" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  INDIA'S GOT LATENT | EP 12 ft&#183; Rakhi Sawant @ashishsolanki_1 @ComedianMaheepSingh 
+                </p>
+              </a>
+              <p class="video-author">
+                Samay Raina
+              </p>
+              <p class="video-stats">
+                36M views &#183;  3 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=1kVK0MZlbI4" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/puspha.avif" alt="Puspha Thumbnail">
+              <div class="video-time">2:48</div>
+            </a>
+            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/t-series-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=1kVK0MZlbI4" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Pushpa 2 - The Rule Trailer (Hindi) | Allu Arjun | Sukumar | Rashmika Mandanna | Fahadh Faasil | DSP
+                </p>
+              </a>
+              <p class="video-author">
+                T-Series
+              </p>
+              <p class="video-stats">
+                12M views &#183; 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=xgXnDnf0cHY" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/bbkivines.avif" alt="BB Ki Vines Thumbnail">
+              <div class="video-time">6:43</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/bb-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=xgXnDnf0cHY" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Bubbly Sir Ki Lockdown Life! | Angry Masterji 15 | BB Ki Vines
+                </p>
+              </a>
+              <p class="video-author">
+                BB Ki Vines
+              </p>
+              <p class="video-stats">
+                64M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=vT5tC-qZ3lI" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/death.avif" alt="Death Thumbnail">
+              <div class="video-time">2:53</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/death-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=vT5tC-qZ3lI" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Death Is No More (Slowed) (Official Visualizer)
+                </p>
+              </a>
+              <p class="video-author">
+                BLESSED MANE
+              </p>
+              <p class="video-stats">
+                25M views &#183; 11 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=SxptQI_aaE0" target="_blank" class="thumbnail-link">
+                <img class="thumbnail" src="thumbnails/fing.avif" alt="Fing Thumbnail">
+                <div class="video-time">6:43</div>
+              </a>
+            </div>            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/fing-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=SxptQI_aaE0" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  THE DISTURBING CASE OF SKINWALKERS || Urban Legend || FING
+                </p>
+              </a>
+              <p class="video-author">
+                FING
+              </p>
+              <p class="video-stats">
+                1.9M views &#183; 1 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Zr3PukaVXFo" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/ashish.avif" alt="Ashish Thumbnail">
+              <div class="video-time">17:05</div>
+            </a>            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/ashish-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=Zr3PukaVXFo" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Office Exam Aur Vaccine | Ashish Chanchlani
+                </p>
+              </a> 
+              <p class="video-author">
+                ashish chanchlani vines
+              </p>
+              <p class="video-stats">
+                92M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=zL4cULLyBJY" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/hanumankind.avif" alt="Hanumankind Thumbnail">
+              <div class="video-time">3:01</div>
+            </a>            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/hanumankind-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=zL4cULLyBJY" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Killer On The Loose - Video Song | Rifle Club | Rex Vijayan | The Imbachi | Aashiq Abu
+                </p>
+              </a> 
+              <p class="video-author">
+                Think Music India
+              </p>
+              <p class="video-stats">
+                3.3M views &#183; 3 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=igKTXhlf_TM" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/fukra.avif" alt="Fukra Thumbnail">
+              <div class="video-time">19:39</div>
+            </a>            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/fukra-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=igKTXhlf_TM" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  I Visited the most Unique Themed Hotels || *Squid Games ?😱*
+                </p>
+              </a>
+              <p class="video-author">
+                Fukra Insaan
+              </p>
+              <p class="video-stats">
+                3.1M views &#183; 13 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=8cVkLeCqUHk" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/kisik.jpg" alt="Kisik Thumbnail">
+              <div class="video-time">4:11</div>
+            </a>            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/t-series-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=8cVkLeCqUHk" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Full Video: Kissik Hindi | Allu Arjun | Sreeleela | Pushpa 2 The Rule | Sukumar | DSP
+                </p>
+              </a> 
+              <p class="video-author">
+                T-Series
+              </p>
+              <p class="video-stats">
+                55M views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=BmNY90OEG0g" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/sr.avif" alt="SR Thumbnail">
+              <div class="video-time">32:33</div>
+            </a>              
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/sr-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=BmNY90OEG0g" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Seven Immortals in Hindu mythology - The Chiranjeevi
+                </p>
+              </a> 
+              <p class="video-author">
+                SR PAY STORIES
+              </p>
+              <p class="video-stats">
+                297K views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=sF5LYGgKbUA" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/mebeast.avif" alt="MeBeast Thumbnail">
+              <div class="video-time">6:43</div>
+            </a>            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/mrbeast-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=sF5LYGgKbUA" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Every Minute One Person Is Eliminated
+                </p>
+              </a>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                58M views &#183; 10 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=7RGMDVf44b4" target="_blank" class="thumbnail-link">
+              <img class="thumbnail" src="thumbnails/elon.avif" alt="Elon Thumbnail">
+              <div class="video-time">43:09</div>
+            </a>            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/elon-chpic.jpg">
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=7RGMDVf44b4" target="_blank" class="thumbnail-link">
+                <p class="video-title">
+                  Elon Musk Full Documentary in Hindi
+                </p>
+              </a>
+              
+              <p class="video-author">
+                The WillPower Star
+              </p>
+              <p class="video-stats">
+                300K views &#183; 6 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
